@@ -1,0 +1,36 @@
+GIT is a Version Control System which help us in tracking changes in our code which can help us
+
+
+Version Control System:- It is a 
+Repository:- Root Folder
+README.md :- It is a text file which gives introduction of Repository
+Stages of Files:-
+Created Working Directory
+Staging area(Enabling File Tracking via GIT)
+Repository
+
+
+Basic GIT Commands
+
+git init - Create an Empty Git Repository
+git clone - Download an existing repository from Github
+git status - To find the stage where our code is?
+git remote -v  -To push the file into your github repo
+git add - To push to 
+git 
+git log
+git restore
+
+
+
+status of File we can check it with .git 
+
+
+Advanced Git Commands:
+
+
+revert/reset: Get roll-back
+cherry-pick: Choosse specific commit 
+merger/rebase: TO merge/
+squash: To Squeez the commit log
+
