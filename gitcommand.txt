@@ -1,36 +1,75 @@
-GIT is a Version Control System which help us in tracking changes in our code which can help us
+GIT is a Collaborating as well as Version Control System(VCS) Software which helps in managing and tracking changes in codes.It is developed by the same developer of guy which also developed Linux while coding
+for kernal he faced issues with collaborating people as it was an Open Source Project, as many developer commit changes to the same which create bugs then he find and edit the code, and he had idea to   
+developed a Revision Control System and later named as VCS.
 
 
-Version Control System:- It is a 
+-------------------------
+
+Keywords:-
+
+Version Control System:- It is a software technology which helps in managing and tracking changes in codes.
 Repository:- Root Folder
 README.md :- It is a text file which gives introduction of Repository
+
+
+-------------------------
+
 Stages of Files:-
-Created Working Directory
-Staging area(Enabling File Tracking via GIT)
-Repository
+
+1. Created Working Directory
+2. Staging area(Enabling File Tracking via GIT)
+3. Repository
 
 
+-------------------------
 Basic GIT Commands
 
 git init - Create an Empty Git Repository
 git clone - Download an existing repository from Github
 git status - To find the stage where our code is?
-git remote -v  -To push the file into your github repo
-git add - To push to 
-git 
+git rm  --cached (filename) to unstage the file
+git remote (-v)  -To connect your github repo with this file *Note Repo and Dictonary name must be same
+git remote add origin (Add your URL to Your new Repo)
+git add (origin (BranchName)) To push your files to your desired Branch.
+git commit "(Your Message)"
 git log
 git restore
 
 
+-------------------------
+Steps to create and update your Repository-
 
-status of File we can check it with .git 
+1. Create repo in github
+2. Create a Dictonary at your desired location.
+3. git config --global user.mail
+4. git config --global user.name
+5. clone the repo
+6. Write your code and save it
+7. git status
+8. git add . (to select all files)
+9. git commit -m "Message"
+10. git push origin main
+    Username for 'https://github.com': (Credentials)
+    Password for 'https://mail': (Token-ID)
+11. Check your status via git commit 
 
 
-Advanced Git Commands:
+
+-------------------------
+Advanced GIT Commands
 
 
 revert/reset: Get roll-back
 cherry-pick: Choosse specific commit 
 merger/rebase: TO merge/
 squash: To Squeez the commit log
+
+
+
+
+
+
+
+
+
 
