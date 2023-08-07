@@ -32,9 +32,9 @@ git remote (-v)  -To connect your github repo with this file *Note Repo and Dict
 git remote add origin (Add your URL to Your new Repo)
 git add (origin (BranchName)) To push your files to your desired Branch.
 git commit "(Your Message)"
-git log
+git log - History log of commits with Head
 git restore
-
+git checkout 
 
 -------------------------
 Steps to create and update your Repository-
@@ -54,14 +54,24 @@ Steps to create and update your Repository-
 11. Check your status via git commit 
 
 
+-------------------------
+Branching stratagy 
+Detailed flowchart is added
+
+Main - Protected
+Dev - where developer work 
+Str - stage or testing
+Feat/(name of feature) - sub brach of dev
+Hotfix/(issue) - main branch having issue then rollback the version
 
 -------------------------
 Advanced GIT Commands
 
 
-revert/reset: Get roll-back
-cherry-pick: Choosse specific commit 
-merger/rebase: TO merge/
+revert/reset: roll-back the edit
+cherrypick: Choose specific commit 
+merger: to merge
+rebase: 
 squash: To Squeez the commit log
 
 
