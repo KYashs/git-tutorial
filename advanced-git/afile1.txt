@@ -1,3 +1,1 @@
 This is from developer 1.
-
-Inefficient changes for rollback testing
