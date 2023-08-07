@@ -10,6 +10,7 @@ Keywords:-
 Version Control System:- It is a software technology which helps in managing and tracking changes in codes.
 Repository:- Root Folder
 README.md :- It is a text file which gives introduction of Repository
+Head:- The latest commit is known as head.
 
 
 -------------------------
@@ -68,6 +69,9 @@ Hotfix/(issue) - main branch having issue then rollback the version
 Advanced GIT Commands
 
 
+git branch : shows all branches
+git checkout -b (branch_name) : to create as well as switch the branch you created
+git log --oneline  //Readable hash with commit message
 revert/reset: roll-back the edit
 cherrypick: Choose specific commit 
 merger: to merge
