@@ -1,5 +1,5 @@
 GIT is a Collaborating as well as Version Control System(VCS) Software which helps in managing and tracking changes in codes.It is developed by the same developer of guy which also developed Linux while coding
-for kernal he faced issues with collaborating people as it was an Open Source Project, as many developer commit changes to the same which create bugs then he find and edit the code, and he had idea to   
+for kernel he faced issues with collaborating people as it was an Open Source Project, as many developer commit changes to the same which create bugs then he find and edit the code, and he had idea to   
 developed a Revision Control System and later named as VCS.
 
 
@@ -28,8 +28,8 @@ Basic GIT Commands
 git init - Create an Empty Git Repository
 git clone - Download an existing repository from Github
 git status - To find the stage where our code is?
-git rm  --cached (filename) to unstage the file
-git remote (-v)  -To connect your github repo with this file *Note Repo and Dictonary name must be same
+git rm  --cached (filename) to upstaged the file
+git remote (-v)  -To connect your github repo with this file *Note Repo and Dictionary name must be same
 git remote add origin (Add your URL to Your new Repo)
 git add (origin (BranchName)) To push your files to your desired Branch.
 git commit "(Your Message)"
@@ -41,7 +41,7 @@ git checkout
 Steps to create and update your Repository-
 
 1. Create repo in github
-2. Create a Dictonary at your desired location.
+2. Create a Dictionary at your desired location.
 3. git config --global user.mail
 4. git config --global user.name
 5. clone the repo
@@ -56,7 +56,7 @@ Steps to create and update your Repository-
 
 
 -------------------------
-Branching stratagy 
+Branching strategy 
 Detailed flowchart is added
 
 Main - Protected
@@ -71,12 +71,13 @@ Advanced GIT Commands
 
 git branch : shows all branches
 git checkout -b (branch_name) : to create as well as switch the branch you created
-git log --oneline  //Readable hash with commit message
-revert/reset: roll-back the edit
-cherrypick: Choose specific commit 
+git log --online  //Readable hash with commit message
+git revert (with HASH number)
+git reset: roll-back the edit
+cherry-pick: Choose specific commit 
 merger: to merge
 rebase: 
-squash: To Squeez the commit log
+squash: To Squeeze the commit log
 
 
 
